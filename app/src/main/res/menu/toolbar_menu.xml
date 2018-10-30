@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addAtten"
+        android:title="Submit"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/allP"
+        android:title="All P"
+        android:checkable="true"
+        app:showAsAction="never"
+        android:checked="true"
+         />
+
+    <item android:checkable= "true"
+        android:id="@+id/allSame"
+        android:title="Same Hours"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/getAtten"
+        android:title="Edit Attendance"
+        app:showAsAction="never"
+        />
+
+</menu>

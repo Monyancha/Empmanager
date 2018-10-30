@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp"
+
+    >
+
+    <TextView
+        android:id="@+id/listTAEmpName"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_weight="5"
+
+        android:text="TextView" />
+
+    <CheckBox
+        android:id="@+id/switchAttendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:checked="true"
+        />
+
+    <EditText
+        android:id="@+id/editTextHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="8"
+        android:clickable="true"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextOverTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:clickable="true"
+        android:inputType="number" />
+
+
+</LinearLayout>

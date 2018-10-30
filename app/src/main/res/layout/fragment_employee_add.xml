@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kartik.empmanager.Main2Activity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="144dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="70dp"
+        android:text="Name"
+        app:layout_constraintEnd_toStartOf="@+id/editTextName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="144dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="37dp"
+        android:text="Salary"
+        app:layout_constraintEnd_toStartOf="@+id/editTextSalary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+    <EditText
+        android:id="@+id/editTextSalary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewSalary"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="31dp"
+        android:text="Phone No :"
+        app:layout_constraintEnd_toStartOf="@+id/editTextPhone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSalary" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewPhone"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSalary" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="51dp"
+        android:text="Add"
+        app:layout_constraintEnd_toEndOf="@+id/workStatusAddEmpFragSwitch"
+        app:layout_constraintTop_toBottomOf="@+id/workStatusAddEmpFragSwitch" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="111dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="Joining Date"
+        app:layout_constraintEnd_toStartOf="@+id/editTextDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPhone"
+        tools:text="DD/MM/YY" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="DD/MM/YY"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewDate"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <Switch
+        android:id="@+id/workStatusAddEmpFragSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:checked="true"
+        app:layout_constraintStart_toStartOf="@+id/editTextDate"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+    <TextView
+        android:id="@+id/workStatusAddEmpFragTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Work Status"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDate" />
+
+</android.support.constraint.ConstraintLayout>

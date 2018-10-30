@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp"
+
+    >
+
+    <TextView
+        android:id="@+id/dateSingleEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="TextView"
+        />
+
+    <TextView
+        android:id="@+id/statusSinglEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="TextView"
+        />
+
+    <TextView
+        android:id="@+id/hourSingleEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="TextView"
+        />
+
+    <TextView
+        android:id="@+id/oTsingleEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="TextView"
+        />
+
+
+
+</LinearLayout>
