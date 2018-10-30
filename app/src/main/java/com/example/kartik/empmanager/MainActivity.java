@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
-        navigation.setSelectedItemId(R.id.navigation_addemp);
+        navigation.setSelectedItemId(R.id.navigation_home);
 
     }
 }
