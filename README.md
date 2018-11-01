@@ -2,6 +2,8 @@
 App Consist of 5 screens 
 
 SCREEN SHOTS ARE PRESENT IN APP FOLDER WITH .png extension .
+
+
 One screen is for add and update employee
 
 Calculate Salary screen , selecting month and year in this screen will give the total attendance , total hours , total overtime 
