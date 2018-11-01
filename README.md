@@ -5,7 +5,9 @@ SCREEN SHOTS ARE PRESENT IN APP FOLDER WITH .png extension .
 
 
 One screen is for add and update employee
+
 ![alt text](https://github.com/Kartik33/Empmanager/blob/master/app/Add%26UpdateEmployeeScreen.png)
+
 Calculate Salary screen , selecting month and year in this screen will give the total attendance , total hours , total overtime 
 and salary of that month . Clicking on the detail of the employee a new screen will be opened and day wise attendance of that month 
 will be shown .
